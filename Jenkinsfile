@@ -4,7 +4,6 @@ pipeline {
     agent any
 
     stages {
-
         stage('Instalar dependencias') {
             steps {
                 bat 'npm install'
@@ -12,8 +11,11 @@ pipeline {
         }
 
         stage('Executar Testes') {
+            environment {
+                NO_COLOR = '1'
+            }
             steps {
-                bat 'NO_COLOR=1 npm run cy:run'
+                bat 'npm run cy:run'
             }
         }
     }
