@@ -15,8 +15,8 @@ pipeline {
                 NO_COLOR = '1'
             }
             steps {
-                bat 'npm run cy:run'
+                bat 'npm run test'
             }
         }
     }
-}
+}}
