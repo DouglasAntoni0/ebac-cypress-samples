@@ -106,6 +106,21 @@ Este repositório cobre a fase de familiarização com a ferramenta. Ele ajuda a
 - como abro a execução visual?
 - como o Cypress organiza seus exemplos?
 
+## Critérios para transformar exemplos em automação real
+
+A passagem de um repositório de samples para uma suíte profissional exige intenção de teste. Em vez de apenas executar comandos, é preciso definir qual risco cada cenário cobre, qual jornada merece proteção e qual evidência será útil em caso de falha.
+
+Alguns critérios ajudam nessa evolução:
+
+- substituir exemplos genéricos por fluxos de uma aplicação alvo;
+- criar dados de teste previsíveis ou dinâmicos, conforme o caso;
+- evitar esperas fixas e preferir validações orientadas a estado;
+- concentrar ações repetidas em comandos reutilizáveis;
+- organizar specs por funcionalidade ou jornada;
+- separar smoke tests de cenários mais amplos de regressão.
+
+Essa leitura mostra maturidade porque conecta aprendizado de ferramenta com engenharia de qualidade: o framework é o meio, mas o objetivo é reduzir risco e aumentar confiança na entrega.
+
 ## Como isso evolui para QA profissional
 
 Depois de entender a estrutura base, o próximo passo é transformar exemplos em uma suíte com intenção. Isso significa escolher uma aplicação alvo, definir fluxos críticos, usar seletores estáveis, organizar dados e registrar evidências.
