@@ -106,6 +106,12 @@ Este repositório cobre a fase de familiarização com a ferramenta. Ele ajuda a
 - como abro a execução visual?
 - como o Cypress organiza seus exemplos?
 
+## Como isso evolui para QA profissional
+
+Depois de entender a estrutura base, o próximo passo é transformar exemplos em uma suíte com intenção. Isso significa escolher uma aplicação alvo, definir fluxos críticos, usar seletores estáveis, organizar dados e registrar evidências.
+
+O valor deste repositório está justamente em servir como ponte entre aprendizado do framework e construção de automações mais completas.
+
 ## Resultado técnico
 
 O repositório mostra familiaridade com a anatomia do Cypress e seus recursos de apoio. Essa base é importante porque bons projetos de QA começam com domínio do framework antes de avançar para arquitetura, relatórios, CI/CD e padrões de manutenção.
